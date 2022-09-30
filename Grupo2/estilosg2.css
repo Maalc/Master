@@ -74,8 +74,8 @@ nav div{
 
 
 main{
-    color: #fff;
-    background: radial-gradient(circle,#882FCC,#41078F);
+    color: #000;
+    background: #fff;
     grid-row: 2 / 6;
     grid-column: 1 / span 3;
 }
@@ -105,7 +105,9 @@ main h3{
     margin: 20px 0px 0px 10px;
 }
 
-
+.inf-vf{
+    color:#f76300;
+}
 
 
 
@@ -118,4 +120,15 @@ footer{
     background: #000;
     grid-row: 6 / 7;
     grid-column: 1 / span 3;
+}
+
+
+.footer-info{
+    margin-left: 25%;
+}
+
+.footer-info li{
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
 }
