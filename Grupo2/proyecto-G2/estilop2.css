@@ -17,7 +17,7 @@ body{
     height: 100vh;
 }
 
-
+/*Cabecera responsive general*/
 .header{
     padding: 10px;
     color: var(--white-color);
@@ -63,20 +63,12 @@ li{
     text-shadow: 3px 3px 2px #000;
 }
 .nav a:hover{
-    text-shadow: 1px 1px 2px #fff;
+    text-shadow: 1px 1px 2px var(--white-color);
     color: var(--black-color);
 }
 
 
-.main{
-    background: #c1c1c1;
-    flex-basis: 400px;
-    flex-grow: 2;
-    flex-shrink: 0;
-    padding: 5px;
-}
-
-
+/*Footer Responsive general*/
 .footer{
     color: var(--white-color);
     background: var(--black-color);
@@ -132,6 +124,27 @@ h5{
     margin-left: 5px;
 }
 
+/*Estilo de main INDEX*/
+.index-main{
+    background: #c1c1c1;
+    flex-basis: 400px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+/*Estilo de main Servicios*/
+.main-servicios{
+    background: #c1c1c1;
+    flex-basis: 400px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+/*Estilo de main Sobre nosotros*/
+.main-sobrenosotros{
+    background: #c1c1c1;
+    flex-basis: 400px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
 
 
 @media screen and (min-width: 800px){
