@@ -189,7 +189,7 @@ margin-top: 20px;
     }
 
     main{
-        grid-row: 2 / 6;
+        grid-row: 2 / auto;
         grid-column: 1 / span 3;
     }
 
