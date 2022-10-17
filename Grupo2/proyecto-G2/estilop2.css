@@ -56,6 +56,12 @@ li{
     margin: 10px 0px;
     padding: 10px 0;
 }
+.reserv{
+    display: none;
+}
+.reserve{
+    display: none;
+}
 .nav a{
     margin: auto;
     color: var(--white-color);
@@ -138,6 +144,44 @@ h5{
 .index-main--container{
     position: relative;
 }
+.picture{
+    position: relative;
+}
+.logo2{
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    width: 200px;
+}
+.contact-container{
+    display: flex;
+}
+.contact-container h4{
+    font-family: "Bakbak One";
+    font-size: 55px;
+    margin: 0px 10px;
+}
+.whatsapp{
+    font-weight: bold;
+    font-size: 60px;
+    margin: 10px;
+    color: #10AC00;
+}
+.chat-container{
+    margin: auto;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    background: #10AC00;
+    border-radius: 30px;
+    padding: 8px;
+    height: 30px;
+    outline: #000 2px solid;
+}
+.chat-container a{
+    text-decoration: none;
+    color: var(--white-color);
+}
 /*Estilo de main Servicios*/
 .main-servicios{
     background: #c1c1c1;
@@ -160,8 +204,8 @@ h5{
     height: auto;
 }
 .Quienes-somos h2{
-text-align: center;
-margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 .Quienes-somos h3{
     text-align: center;
@@ -191,10 +235,79 @@ margin-top: 20px;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    header{
+    .header{
         grid-column: 1 / span 3;
     }
-
+        .header{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            color: var(--white-color);
+            background: var(--black-color);
+        }
+        .header-container{
+            display: flex;
+            justify-content: start;
+        }
+        .header-container a{
+            width: auto;
+        }
+        .logovf1{
+            height: 120px;
+            width: 120px;
+        }
+        h1{
+            margin-left: 20px;
+            width: 150px;
+            text-align: center;
+            font-family: "Mr Bedfort";
+            font-size: 35px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            color: var(--red-color);
+            text-shadow: 1px 1px 1px var(--white-color);
+        }
+        .nav{
+            margin-left: 25%;
+            height: 120px;
+        }
+        ul{
+            height: 120px;
+            display: flex;
+            flex-direction: row;
+        }
+        li{
+            display: flex;
+            list-style: none;
+            background: transparent;
+            margin: auto;
+        }
+        .nav a{
+            margin: auto;
+            padding: 20px;
+            color: var(--white-color);
+            text-decoration: none;
+        }
+        .nav a:hover{
+            color: var(--red-color);
+            text-shadow: none;
+        }
+        .reserv{
+            display: inline-block;
+            padding: 0;
+        }
+        .reserve{
+            display: inline-block;
+            background-color: #900;
+            border-radius: 30px;
+            padding: 0;
+            outline: 1px solid #fff;
+        }
+        .reserve a:hover{
+            color: #000;
+            text-shadow: 1px 1px 2px #fff;
+        }
+        
     main{    
         grid-row: 2 / auto;
         grid-column: 1 / span 3;
