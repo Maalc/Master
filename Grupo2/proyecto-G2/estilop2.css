@@ -147,11 +147,12 @@ h5{
 .picture{
     position: relative;
 }
-.logo2{
+.logo2a{
     position: absolute;
     left: 2%;
-    bottom: 2%;
-    width: 200px;
+    top: 60%;
+    /* bottom: 30px; */
+    width: 300px;
 }
 .contact-container{
     display: flex;
@@ -328,5 +329,77 @@ h5{
         grid-row: 7 / 8;
         grid-column: 1 / span 3;
 
+    }
+    /*Footer*/
+    .footer{
+        color: var(--white-color);
+        background: var(--black-color);
+        flex-grow: auto;
+        padding: 10px;
+    }
+    .footer h3{
+        text-align: center;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .networks-container{
+        margin: auto 0;
+        width: 40%;
+    }
+    .footer ul{
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .footer li{
+        padding: 0px;
+        background: transparent;
+        margin: auto;
+    }
+    .footer li i{
+        text-align: center;
+        color: var(--red-color);
+        font-size: 40px;
+    }
+    .footer li i:hover{
+        color: var(--white-color);
+    }
+    .form-container{
+        padding: 20px 10px;
+        margin: auto 0;
+    }
+    .footer h5{
+        font-size: 25px;
+        padding: 10px ;
+        text-align: center;
+    }
+    .form-container{
+        width: 40%;
+    }
+    .form{
+        display: flex;
+        align-items: center;
+    }
+    #email{
+        outline: 2px solid var(--red-color);
+        padding: 5px;
+        width: 80%;
+        margin: auto;
+        margin-right: 5px;
+    }
+    #submit{
+        font-weight: bold;
+        outline: 1px solid var(--white-color);
+        color: var(--white-color);
+        background: var(--red-color);
+        padding: 5px;
+        width: auto;
+        margin: auto;
+        margin-left: 5px;
     }
 }
