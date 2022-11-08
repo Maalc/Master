@@ -198,27 +198,33 @@ h5{
 }
 
 .Quienes-somos {
-    justify-content: center;
-    text-align: center; 
-    width: 100%;
-    height: auto;
-}
-.Quienes-somos h2{
-    text-align: center;
+    /* justify-content: center;
+     text-align: center; */
+     width: 100%;
+     height: auto;
+ }
+ .Quienes-somos h2{
+    /*text-align: center;*/
     margin-top: 20px;
-}
+    }
 .Quienes-somos h3{
     text-align: center;
     margin-top: 10px;
     margin-right: 307px;
     }
 
-.Quienes-somos p{
-        text-align: justify;
-        justify-content: center;
+    .Quienes-somos h3{
+        /*text-align: center;*/
         margin-top: 10px;
-        margin-left: 10px;
-    }
+        margin-right: 80%;
+        }
+.Quienes-somos p{
+    /* text-align: justify;
+    justify-content: center;*/
+    margin-top: 10px;
+    padding-left: 10px;
+    /* padding: 15px; */
+}
 #img-vallenato {
     width: 300px;
     height: 300px;
@@ -226,7 +232,7 @@ h5{
 }
 .clase-datos{
     margin-top: 80px;
-    text-align: center;
+    /* text-align: center; */
 }
 @media screen and (min-width: 800px){
     body{
